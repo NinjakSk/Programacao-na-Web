@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Programação na Web</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Programação: A Linguagem do Futuro</h1>
+        <p>Descubra como a programação e as tecnologias da web podem transformar o mundo!</p>
+    </header>
+
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="#programacao">Programação</a>
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#javascript">JavaScript</a>
+            <a href="#transformacao">Transformação</a>
+            <a href="#contatos">Contatos</a>
+        </div>
+    </nav>
+
+    <section id="programacao">
+        <h2>O que é Programação?</h2>
+        <p>Programação é o processo de escrever instruções que um computador pode entender para realizar tarefas
+            específicas. É como ensinar um computador a pensar e agir por meio de códigos.</p>
+        <p>Ela está presente em praticamente tudo hoje em dia: celulares, sites, jogos, redes sociais, eletrodomésticos
+            e até carros inteligentes. Aprender a programar é como adquirir um superpoder digital.</p>
+        <p>Com o avanço da tecnologia, a programação se tornou uma das habilidades mais valorizadas no mercado de
+            trabalho. Desde startups até grandes empresas, todas precisam de programadores para criar soluções
+            inovadoras e automatizar processos. Além disso, ela é uma ferramenta poderosa para resolver problemas reais,
+            como melhorar a educação, criar acessibilidade para pessoas com deficiência, desenvolver sistemas de saúde e
+            muito mais.</p>
+        <div class="img-container">
+            <img src="img/codigos-html-para-paginas-web-1.webp" alt="Código de programação" width="60%">
+        </div>
+    </section>
+
+    <section id="html">
+        <h2>HTML - Linguagem de Marcação de Hipertexto</h2>
+        <p><strong>HTML</strong> vem do inglês <em>HyperText Markup Language</em>, que significa "Linguagem de Marcação
+            de Hipertexto". Ela é responsável por criar a estrutura de uma página da web. Com o HTML, definimos títulos,
+            parágrafos, imagens, links e outros elementos visuais.</p>
+        <p>Imagine o HTML como o esqueleto de um site – ele organiza todo o conteúdo que será exibido.</p>
+        <p>É a tecnologia mais usada na web, presente em praticamente todos os sites existentes. Sem HTML, não seria
+            possível visualizar conteúdos de forma organizada em navegadores. Além disso, o HTML é essencial para a
+            acessibilidade, permitindo que softwares leiam as informações para pessoas com deficiência visual.</p>
+    </section>
+
+    <section id="css">
+        <h2>CSS - Folhas de Estilo em Cascata</h2>
+        <p><strong>CSS</strong> é a sigla de <em>Cascading Style Sheets</em>, traduzido como "Folhas de Estilo em
+            Cascata". Essa linguagem serve para estilizar o conteúdo criado com HTML, definindo cores, fontes, tamanhos,
+            espaçamentos, alinhamentos e muito mais.</p>
+        <p>Se o HTML é o esqueleto, o CSS é a roupa – ele deixa o site bonito e apresentável.</p>
+        <p>Com CSS moderno, também é possível fazer animações, transições, layouts responsivos e efeitos visuais
+            incríveis. Além disso, frameworks como Bootstrap e Tailwind CSS facilitam a criação de designs modernos com
+            menos esforço, permitindo que até iniciantes criem sites visualmente profissionais.</p>
+    </section>
+
+    <section id="javascript">
+        <h2>JavaScript - Linguagem de Script para Web</h2>
+        <p><strong>JavaScript</strong> é uma linguagem de programação que adiciona interatividade às páginas. Com ela,
+            podemos criar animações, validar formulários, responder a ações do usuário e construir aplicações completas.
+        </p>
+        <p>JavaScript significa literalmente "Script para Java", mas apesar do nome parecido, é diferente da linguagem
+            Java. No contexto da web, ele é essencial para deixar as páginas dinâmicas e responsivas.</p>
+        <p>Hoje em dia, o JavaScript é usado até fora dos navegadores, em servidores (com Node.js), apps mobile (com
+            React Native), jogos e inteligência artificial. Também é a base de muitos frameworks populares como React,
+            Angular e Vue.js, que tornam o desenvolvimento mais rápido e organizado.</p>
+        <button class="btn-magica" onclick="mostrarMensagem()">Clique para ver a mágica!</button>
+        <div class="mensagem" id="mensagem">🎉 Você interagiu com JavaScript! 🎉</div>
+    </section>
+
+    <section id="transformacao">
+        <h2>Como a Programação Pode Transformar Vidas</h2>
+        <p>A programação abre portas para diversas oportunidades profissionais. Pessoas de todas as idades e lugares do
+            mundo têm mudado suas vidas aprendendo a programar. Além disso, ela estimula o raciocínio lógico, a
+            criatividade e a solução de problemas.</p>
+
+        <p>Se você tem uma ideia, com programação você pode torná-la real! Com dedicação, qualquer pessoa pode aprender
+            — não importa se tem 10, 20 ou 70 anos. Existem muitos cursos gratuitos na internet e comunidades que ajudam
+            quem está começando.</p>
+
+        <p>A programação também é uma ferramenta de inclusão social. Em muitas regiões carentes, jovens têm encontrado
+            na tecnologia uma forma de gerar renda, criar projetos sociais ou até fundar startups. Aprender a programar
+            é mais do que dominar uma linguagem — é entender como usar a lógica para construir soluções que podem
+            impactar a vida de muita gente.</p>
+
+        <p>Além disso, a carreira de programador é uma das mais bem pagas atualmente. Veja a média salarial no Brasil:
+        </p>
+        <ul>
+            <li><strong>Júnior</strong> (início de carreira): R$ 3.000 a R$ 5.000 por mês</li>
+            <li><strong>Pleno</strong> (experiência intermediária): R$ 5.000 a R$ 9.000 por mês</li>
+            <li><strong>Sênior</strong> (profissional experiente): R$ 10.000 a R$ 18.000 por mês ou mais</li>
+        </ul>
+
+        <p>Esses valores podem ser ainda maiores em empresas internacionais ou com trabalho remoto para o exterior. A
+            área de tecnologia está em constante crescimento, e a demanda por programadores só aumenta!</p>
+
+        <div class="img-container">
+            <img src="img/pessoas-desistem-de-programar-1024x576.jpg" alt="Pessoas programando" width="60%">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2 class="titulo-contato">Entre em Contato</h2>
+        <div class="contato-container">
+            <a href="https://instagram.com/njk.guilherme" target="_blank" class="contato-link instagram">
+                <i class="bi bi-instagram"></i>@njk.guilherme </a>
+            <a href="https://tiktok.com/@seu_usuario" target="_blank" class="contato-link tiktok">
+                <i class="bi bi-tiktok"></i>???</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gui.pgois19@gmail.com" target="_blank"
+                class="contato-link gmail">
+                <i class="bi bi-envelope"></i>gui.pgois19@gmail.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <h4>Feira de Ciências • Escola Antonieta Grassi Malatrasi</h4>
+        <h4>Desenvolvido por -> Guilherme Gois 7ºA</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
